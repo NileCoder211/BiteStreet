@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/script.js"></script>
+</head>
+
+<body>
+
+
+  
+        <nav class="nav-links">
+        <ul>
+            <li class="hideOnMobile"><a href="#Home">Home</a></li>
+            <li class="hideOnMobile"><a href="#About">About</a></li>
+            <li class="hideOnMobile"><a href="#Services">Services</a></li>
+            <li class="hideOnMobile" id="center"><a href="#BiteStreet">BiteStreet</a></li>
+            <li class="hideOnMobile"><a href="#Menu">Menu</a></li>
+            <li class="hideOnMobile"><a href="#Community">Community</a></li>
+            <li class="hideOnMobile"><a href="#Contact">Contact</a></li>
+            <li class="menu-button" onclick="showSidebar()"><a href="#"><svg onclick="toggleMenu()"
+                        xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" fill="none"
+                        stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <line x1="3" y1="12" x2="21" y2="12" />
+                        <line x1="3" y1="6" x2="21" y2="6" />
+                        <line x1="3" y1="18" x2="21" y2="18" />
+                    </svg>
+                </a></li>
+        </ul>
+
+        <ul class="sidebar">
+
+            <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" viewBox="0 0 24 24">
+                        <line x1="18" y1="6" x2="6" y2="18" />
+                        <line x1="6" y1="6" x2="18" y2="18" />
+                    </svg>
+                </a></li>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#BiteStreet">BiteStreet</a></li>
+            <li><a href="#Menu">Menu</a></li>
+            <li><a href="#Community">Community</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+
+        </nav>
+
+
+      
+        <div class="image-container" id="Home">
+            <img src="./assets/image6.png" width="700" height="500"> 
+            <div class="text-overlay">
+                <h1>Tasty bites,good vibes,and happy bellies await!</h1>
+            <p>Deliciouly crafted meals, warm, ambiance and unforgettable flavors-experince comfort and tradition in every bite.</p>
+            <button>Let's Get Some </button>
+           </div>
+        </div>
+
+        <div id="Services" class="Services">
+            <div class="quater">
+                <h6>What We Offer!</h6>
+                <h2>Your Wishes,Our Priorities</h2>
+                <p>At BiteStreet,we offer dine in, takeout, delivery, catering, and private event services all with a
+                    focus on fresh flavors and friendly service. Whether you're stopping by for a meal or planning a
+                    special occasion, we are here to make it memorable.</p>
+                <button onclick="showMore ()" class="btn">Learn More!</button>
+
+                <div id="moreInfo" style="display: none;" class="moreinfo">
+                    <p>TAKEOUT- Order your favorites and pick them up fresh and fast.Call or order online-curbside pickup available.</p>
+                    <p>DELIVERY- Get your meal delivered hot and fresh through our trusted partners like UberEats and DoorDash.</p>
+                    <p>DINE-IN- Relax and enjoy a great meal in our cozy indoor or outdoor seating. Walk-ins welcome,reservations suggested.</p>
+                    <p>PRIVATE EVENTS- Celebrate with us! Our private space is perfect for events, with custom menus and full-service support.</p>
+                  
+                    
+                </div>
+
+            </div>
+            <div class="service-image">
+            <img src="./assets/image7.png" alt="Service Image">
+            </div>
+           
+        </div>
+
+
+    <section id="Menu">
+        <div class="menu">
+        <h6>MENU</h6>
+        <h1>Our Delicious Menu</h1>
+        <p>Enjoy a menu full of fresh, flavorful dishes crafted to delight your taste buds.</p>
+        </div>
+        </section>
+
+        <div class="menu1">
+            <div class="menu-item1">
+            <div class="menu-text1">
+            <h1>Lighter options packed with vibrant flavors</h1>
+            <p>Discover a variety of comforting and flavorful dishes made with fresh ingredients and a whole lot of love. From
+                hearty mains to satisfying favorites, there's something delicious for everyone to enjoy.</p>
+                <button>Learn More</button>
+                </div>
+
+
+            </div>
+            <div class="menu-item2">
+            <div class="menu-text2">
+             <h1>Chef-inspired dishes prepared with creativity</h1>
+            <p>Our menu features a curated selection of expertly crafted main courses, blending classic flavors with contemporary 
+                flair. Each dish is prepared with the finest ingredients to deliver a refined dining experience. </p>
+             
+                <button>Learn More</button>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="menu-item3">
+            <div class="menu-text3">
+                 <h1>Familiar favorites everyone at the table will love</h1>
+            <p>Whether you're craving something classic or looking to try something new, our menu has you covered! Packed with 
+                crowd-pleasers and tasty options for all ages, it's the perfect lineup for a great meal out.</p>
+
+                   <p>Our menu brings a fresh take on familiar favorites, combining bold flavors with a modern twist. Whether you're 
+                    here for a quick bite or relaxed meal, you'II find something exciting and satisfying.
+                </p>
+                <button>Learn More</button>
+            </div>
+
+        </div>
+
+        
+    <div id="Testimonials" class="testimonials-section">
+        <section class="testimonials">
+            <h6>TESTIMONIALS</h6>
+            <h1>See What Our Guests Are Saying</h1>
+            <p>Discover real stories from our happy guests.From delicious flavors to warm service,hear how our food
+                brings people back
+                for more!</p>
+
+          <!--   <div class="nav-buttons">
+                <button id="addBtn" class="car">&larr;</button>
+
+                <button id="removeBtn" class="car">&rarr;</button>
+            </div>
+           --> 
+             <button class="carousel-btn left">&larr;</button> <button class="carousel-btn right">&rarr;</button>
+             </section>
+            
+    <div class="carousel-container">
+  
+  <div class="carousel-track">
+    <div class="card">
+         <p>"Every dish was bursting with flavor. I can tell they put real heart into cooking.This is my new
+                    go-to spot!"</p>
+                <span>- Chacha D., 28 </span>
+
+    </div>
+    <div class="card">
+         <p>"Afordable,flavorful and fast.What more can you ask fo? I'II definitely be back!"</p>
+                <span>- Khorado R., 22</span>
+
+    </div>
+    <div class="card">
+        <p>"This place makes you feel at home.The chef even came out to check on us-such a nice touch."</p>
+                <span>- Elizabeth N., 20</span>
+    </div>
+    <div class="card">
+        <p>"Absolutely amazing! The food was delicious and the service was top-notch.We'II definitely be coming back!"</p>
+        <span>- Nyachiang K.</span>
+    </div>
+    <div class="card">
+        <P>"One of the best dining experiences I've had in long time. The ambiance was cozy, and every dish we tried was full of flavors."</P>
+        <span>- Nyakume G </span>
+    </div>
+    <div class="card">
+        <P>"This place never disappoints. Great variety, fresh ingredieints, and friendly staff.Highly recommend!"</P>
+        <span>- Nyakam M </span>
+    </div>
+    <div class="card">
+        <P>"From appetizers to desert, everything was perfrect. The staff went above and beyound to make our night special."</P>
+        <span>- Chaan T </span>
+    </div>
+    <div class="card">
+        <P>"A hidden gem! I've told all my friends about this place. The food is authentic and consistently excellent."</P>
+        <span>- Rout D</span>
+    </div>
+  </div>
+      
+</div>
+
+
+        
+        </div>
+       <!--  <div class="corousel-container">
+        <div class="corousel-track">
+        <div id="cardsContainer" class="corousel-container">
+
+
+            <div class="card">
+                <p>"Every dish was bursting with flavor. I can tell they put real heart into cooking.This is my new
+                    go-to spot!"</p>
+                <span>- Chacha D., 28 </span>
+            </div>
+
+            <div class="card">
+                <p>"Afordable,flavorful and fast.What more can you ask fo? I'II definitely be back!"</p>
+                <span>- Khorado R., 22</span>
+            </div>
+            <div class="card">
+                <p>"This place makes you feel at home.The chef even came out to check on us-such a nice touch."</p>
+                <span>- Elizabeth N., 20</span>
+            </div>
+        </div>
+        </div>
+        </div>
+ -->    
+
+    <section class="partners">
+        <p>Our Trusted Partners</p>
+        <ul>
+            <li><a href="COCA-COLA"> <img src="./assets/image18.png" width="100px"  height="30px"></a></li>
+            <li><a href="MASTERCARD">MASTERCARD</a></li>
+            <li><a href="NASA"><img src="./assets/image17.png" width="100px"  height="32px" alt=""> </a></li>
+            <li><a href="TOAST">TOAST</a></li>
+            <li><a href="DOORDASH">DOORDASH</a></li>
+        </ul>
+
+    </section>
+
+
+    <div class="explore">
+        <h6>EXPLORE & LEARN</h6>
+        <h1>Explore educative resources you may need</h1>
+        <p>Discover the heart of our resturant-from the story behind our dishes to the passion that dives our kitchen.
+            Dive into our unique ingredients,culinary techniques and cultural inspirations.Whether you're a food lover
+            or just curious,there's always something new to explore.
+        </p>
+    </div>
+
+    <div class="explore-containers">
+        <div class="explore-container1">
+            <h1>Sourcing of ingredients</h1>
+            <p>We take pride in using only the freshest,highest-quality ingredieints sourced from trusted local farms
+                and sustainable suppliers
+            </p>
+            <button>Explore</button>
+        </div>
+        <div class="explore-container2">
+            <h1>Cooking Techniques</h1>
+            <p>Our chefs blend time-honored culinary traditions with innovative methods to create dishes that are both
+                cormforting
+                and exciting
+            </p>
+            <button>Explore</button>
+        </div>
+       
+        <div class="explore-container3">
+            <h1>Loyalty Programs</h1>
+            <p>Get rewarded for every visit! Earn points,enjoy exclusive perks and unlock special offers just for our
+                Loyal
+                guests
+            </p>
+            <button>Explore</button>
+        </div>
+    </div>
+
+    <div id="Community" class="community">
+
+        <div class="community-description">
+            <h6>COMMUNITY</h6>
+            <h1>We are here for you!</h1>
+            <p>Welcome to our table! This cozy community is where food lovers come together to share stories,enjoy
+                behind-the-scene
+                moments and stay connected with everthing happening at our resturant.Get early access to special
+                offers,exclusive
+                events and sneak peeks of new dishes-all served with a side of fun and flavor.</p>
+
+            <button>Join Community</button>
+        </div>
+        <div class="community-image">
+            <img src="./assets/image16.png" alt="">
+        </div>
+    </div>
+
+
+
+
+
+        <div class="FAQSECTION">
+            <div class="FAQSECTION1">
+
+                <h6>NEED HELP</h6>
+                <h1>Frequently Ask Questions</h1>
+                <p>Have questions? We've got answers! Here are some of the most commmon questions our guests ask about
+                    our resturant,
+                    menu,sevices and more.If you don't find what you're looking for,feel free to contact us-we're always
+                    happy to help!
+                </p>
+     <img src="./assets/image15.png" alt="">
+            </div>
+            
+
+
+         <div class="FAQSECTION2">
+            
+        <div class="accordion">
+
+            <div id="content-container" class="content-container">
+                <div class="question">What are your opening hours?</div>
+                <div class="answer">We're open from 6:00AM to 10:00PM,Monday through Sunday. </div>
+            </div>
+
+            <div id="content-container" class="content-container">
+                <div class="question">Where are you located?</div>
+                <div class="answer">You can fine us at Rubkona street.We are near Bentiu Tower.</div>
+            </div>
+
+            <div id="content-container" class="content-container">
+                <div class="question">How can I make reservation?</div>
+                <div class="answer">You can call us at +254745653399 or book online through
+                    www.Bitestreet/reservatio/platform.com.
+                </div>
+            </div>
+
+            <div id="content-container" class="content-container">
+                <div class="question">Do you offer delivery?</div>
+                <div class="answer">Yes, we deliver through Uber Eats and DoorDash or you can call us directly.</div>
+            </div>
+
+            <div id="content-container" class="content-container">
+                <div class="question">Is takeout available?</div>
+                <div class="answer">Definitely! Call ahead or order online for pickup.</div>
+            </div>
+
+            <div id="content-container" class="content-container">
+                <div class="question">What payment method do you accept?</div>
+                <div class="answer">We accept cash, credit/debit cards and mobile payments like Apple Pay, Google Pay
+                    and m-Pesa </div>
+            </div>
+
+            <div id="content-container" class="content-container">
+                <div class="question">Do you host private events or parties?</div>
+                <div class="answer">Yes, we have space for private functions. Please get in touch to learn more and book
+                    your date.</div>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+
+
+
+    <div id="Contact">
+        <div class="get-in-touch">
+            <h6>GET IN TOUCH</h6>
+            <h1>Your desires, our commands</h1>
+            <p>We'd love to hear from you! Whether you have questions about our menu,want to make reservation or need
+                help
+                planning a special event, our team is here to help.Use the contact form below or reach out to us via
+                phone,
+                email or social media.We look forward to serving you!
+            </p>
+        </div>
+
+
+        <div class="contact">
+
+            <div class="contact-details">
+                <h1>Contact Details:</h1>
+                <div class="contact-details1">
+                    <p>Email: contactbitestreet@gmail.com</p>
+                    <p>Phone: +254123456789</p>
+                    <p>Address: Donholm Phase 8 Gate1</p>
+
+                </div>
+
+                <div class="contact-details2">
+
+                    <ul>
+                        <li><a href="#Facebook"><img src="./assets/image10.png" alt="" width="50px" height="50px"></a></li>
+                        <li><a href="#Whatssap"><img src="./assets/image12.png" alt="" width="50px" height="50px"></a></li>
+                        <li><a href="#Instagram"><img src="./assets/image13.png" alt="" width="50px" height="50px"></a></li>
+                        <li><a href="#Linkedin"><img src="./assets/image11.png" alt="" width="50px" height="50px"></a></li>
+                    </ul>
+
+                </div>
+
+                <div class="contact-details3">
+                    <P>Feedback within 5 hours</P>
+                </div>
+            </div>
+
+            <div class="message">
+                <h1>Send Us a Message</h1>
+
+                <div class="message1">
+                    <!--    <P class="p1">Email</P>
+                <p>Email </p>
+                <hr>
+                <p class="p1">Message</p>
+                <p>Message</p>
+                <hr> -->
+
+                    <form>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Email" required>
+
+                        <label for="message">Message</label>
+                        <textarea id="message" placeholder="Message" required></textarea>
+
+
+                        <button>Send Message</button>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="the-end">
+
+        <div class="bitestreet1" id="BiteStreet">
+            <h1>BiteStreet</h1>
+
+            <ul>
+                <div class="link1">
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Community">Community</a></li>
+                </div>
+
+                <div class="link2">
+                    <li><a href="#Menu">Menu</a></li>
+                    <li><a href="#Testimonials">Testimonials</a></li>
+                    <li><a href="#Facebook">Facebook</a></li>
+                    <li><a href="#Instagram">Instagram</a></li>
+                    <li><a href="#YouTube">YouTube</a></li>
+                </div>
+
+                <div class="link3">
+                    <li><a href="#Linkedin">Linkedin</a></li>
+                    <li><a href="#Whatssap">Whatssap</a></li>
+                    <li><a href="#Twitter">Twitter</a></li>
+                    <li><a href="#Terms of Service">Terms of Service</a></li>
+                    <li><a href="#Privacy Policy">Privacy Policy</a></li>
+                </div>
+
+            </ul>
+            <p> &copy;[2030]. BiteStreet. All Rights Reserved.</p>
+        </div>
+
+
+        <div class="bitestreet2" id="About">
+            <h1>About Us</h1>
+            <p>Welcome to Bitestreet, where flavor meets tradition in every bite. Nestled in the heart of the community,
+                we are
+                passionate about serving delicious, freshly prepared meals crafted from the finest ingredieints. Whether
+                you're joining us for a casual lunch, a family dinner or a special celebration, we strive to make every
+                visit memorable
+                with warm hospitality and mouthwatering dishes.
+
+            </p>
+        </div>
+    </div>
+
+</body>
+
+</html>
