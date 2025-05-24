@@ -48,7 +48,16 @@ function showMore (){
 
 
 
+/* 
+const http = require('http');// this is to import in-built http module.require means import.http facilitates commmunication
+const server = http.crateServer((req, res) =>{
+  res.write("Hello World")
 
+    });
+    server.listen(3000, () =>{
+        console.log(Server is running at port 3000)
+        });
+ */
 
 
 
