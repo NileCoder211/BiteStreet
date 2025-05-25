@@ -70,7 +70,10 @@
                 <p>At BiteStreet,we offer dine in, takeout, delivery, catering, and private event services all with a
                     focus on fresh flavors and friendly service. Whether you're stopping by for a meal or planning a
                     special occasion, we are here to make it memorable.</p>
-                <button onclick="showMore ()" class="btn">Learn More!</button>
+                <div class="btn-box">
+
+                    <button onclick="showMore ()" class="btn">Learn More!</button>
+                </div>
 
                 <div id="moreInfo" style="display: none;" class="moreinfo">
                     <p>TAKEOUT- Order your favorites and pick them up fresh and fast.Call or order online-curbside pickup available.</p>
@@ -377,10 +380,10 @@
 
                     <form>
                         <label for="email">Email</label>
-                        <input type="email" id="email" placeholder="Email" required>
+                        <input type="email" id="email" placeholder="Email" required autocomplete="email">
 
                         <label for="message">Message</label>
-                        <textarea id="message" placeholder="Message" required></textarea>
+                        <textarea id="message" placeholder="Message" required autocapitalize="textarea"></textarea>
 
 
                         <button>Send Message</button>

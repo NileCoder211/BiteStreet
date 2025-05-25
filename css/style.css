@@ -180,9 +180,9 @@ nav li:nth-child(5){
 .text-overlay p{
     display: flex;
     flex-wrap: wrap;
-    font-size: 30px;
+    font-size: 25px;
     color: var(--color);
-    font-weight: 700;
+    font-weight: 500;
     padding-left: 70px;
 
 }
@@ -194,7 +194,7 @@ nav li:nth-child(5){
     background-color: var(--color-heading-large);
     border-radius: 40px;
     margin-top: 30px;
-    font-size: 700;
+    font-size: 25px;
 }
 .text-overlay {
     width: 38%;
@@ -251,23 +251,34 @@ nav li:nth-child(5){
  }
 .quater  p{
     font-size: var(--paragraph-size);
-    font-weight: 700;
-    font-family: sans-serif;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
     padding-top: 70px;
     color:var(--color-heading-large);
     padding-right: 300px;
     line-height: 1.5;
 }
+
+.btn-box {
+    display: flex;
+    justify-content: flex-start;
+}
  
- .quater .btn{
-    width: 250px;
-    height: 50px;
+ .btn-box .btn{
+    padding: 0.5rem 1.5rem;
     background-color:var(--color-heading-large);
     font-size: 25px;
     border-radius: 15px;
     color: aliceblue;
     margin-top: 100px;
     margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.btn-box .btn:hover {
+    background-color: aliceblue;
+    border: 1px solid var(--color);
+    color: var(--color);
 }
 
 
@@ -328,10 +339,11 @@ nav li:nth-child(5){
 .menu p{
     font-size: var(--paragraph-size);
     color: var(--color);
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .menu1{
+    position: relative;
     display: flex;
     align-items: center;
     width: 100%;

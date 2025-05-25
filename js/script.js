@@ -34,7 +34,7 @@ function showMore (){
   const leftBtn = document.querySelector('.carousel-btn.left');
   const rightBtn = document.querySelector('.carousel-btn.right');
  
-  const scrollAmount = 400; // width of one card + margin
+  const scrollAmount = 400; 
 
   leftBtn.addEventListener('click', () => {
     track.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
@@ -45,19 +45,6 @@ function showMore (){
   });
 
 
-
-
-
-/* 
-const http = require('http');// this is to import in-built http module.require means import.http facilitates commmunication
-const server = http.crateServer((req, res) =>{
-  res.write("Hello World")
-
-    });
-    server.listen(3000, () =>{
-        console.log(Server is running at port 3000)
-        });
- */
 
 
 
