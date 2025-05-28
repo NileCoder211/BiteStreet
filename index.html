@@ -12,7 +12,7 @@
 <body>
 
 
-  
+    <article class="utility-container section">
         <nav class="nav-links">
         <ul>
             <li class="hideOnMobile"><a href="#Home">Home</a></li>
@@ -22,15 +22,17 @@
             <li class="hideOnMobile"><a href="#Menu">Menu</a></li>
             <li class="hideOnMobile"><a href="#Community">Community</a></li>
             <li class="hideOnMobile"><a href="#Contact">Contact</a></li>
-            <li class="menu-button" onclick="showSidebar()"><a href="#"><svg onclick="toggleMenu()"
+            </ul>
+            <p class="menu-button" onclick="showSidebar()"><svg onclick="toggleMenu()"
                         xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" fill="none"
                         stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                         <line x1="3" y1="12" x2="21" y2="12" />
                         <line x1="3" y1="6" x2="21" y2="6" />
                         <line x1="3" y1="18" x2="21" y2="18" />
                     </svg>
-                </a></li>
-        </ul>
+                    </p>
+    
+        
 
         <ul class="sidebar">
 
@@ -44,6 +46,7 @@
             <li><a href="#Home">Home</a></li>
             <li><a href="#About">About</a></li>
             <li><a href="#Services">Services</a></li>
+
             <li><a href="#BiteStreet">BiteStreet</a></li>
             <li><a href="#Menu">Menu</a></li>
             <li><a href="#Community">Community</a></li>
@@ -51,18 +54,22 @@
         </ul>
 
         </nav>
+        </article>
 
 
-      
-        <div class="image-container" id="Home">
-            <img src="./assets/image6.png" width="700" height="500"> 
+      <article class="utility-container section">      
+          <div class="image-container" id="Home" >
+            <img src="./assets/image1.png" width="700" height="500"> 
             <div class="text-overlay">
-                <h1>Tasty bites,good vibes,and happy bellies await!</h1>
-            <p>Deliciouly crafted meals, warm, ambiance and unforgettable flavors-experince comfort and tradition in every bite.</p>
+                <h1>Tasty bites,good vibes</h1>
+            <p>Deliciouly crafted meals, warm, ambiance and unforgettable flavors.</p>
             <button>Let's Get Some </button>
            </div>
         </div>
+        </article>
 
+
+        <article class="utility-container section">
         <div id="Services" class="Services">
             <div class="quater">
                 <h6>What We Offer!</h6>
@@ -86,11 +93,15 @@
 
             </div>
             <div class="service-image">
-            <img src="./assets/image7.png" alt="Service Image">
+            <img src="./assets/image2.png" alt="Service Image">
             </div>
            
         </div>
+     </article>
 
+
+
+     <article class="utility-container section">
 
     <section id="Menu">
         <div class="menu">
@@ -99,7 +110,10 @@
         <p>Enjoy a menu full of fresh, flavorful dishes crafted to delight your taste buds.</p>
         </div>
         </section>
+        </article>
 
+
+        <article class="utility-container section">
         <div class="menu1">
             <div class="menu-item1">
             <div class="menu-text1">
@@ -114,7 +128,7 @@
             <div class="menu-item2">
             <div class="menu-text2">
              <h1>Chef-inspired dishes prepared with creativity</h1>
-            <p>Our menu features a curated selection of expertly crafted main courses, blending classic flavors with contemporary 
+            <p>Our menu features are curated selection of expertly crafted main courses, blending classic flavors with contemporary 
                 flair. Each dish is prepared with the finest ingredients to deliver a refined dining experience. </p>
              
                 <button>Learn More</button>
@@ -124,6 +138,11 @@
             </div>
 
         </div>
+        </article>
+
+        
+
+        <article class="utility-container section">
 
         <div class="menu-item3">
             <div class="menu-text3">
@@ -138,8 +157,11 @@
             </div>
 
         </div>
+        </article>
 
         
+
+        <article class="utility-container section">
     <div id="Testimonials" class="testimonials-section">
         <section class="testimonials">
             <h6>TESTIMONIALS</h6>
@@ -151,7 +173,7 @@
               <button class="carousel-btn right">&rarr;</button>
              </section>
             
-    <div class="carousel-container">
+    <div class="carousel-container section">
   
   <div class="carousel-track">
     <div class="card">
@@ -196,20 +218,27 @@
 
         
         </div>
+        </article>
+
+
+        <article class="utility-container section">
 
     <section class="partners">
         <p>Our Trusted Partners</p>
-        <ul>
+        <ol>
             <li><a href="COCA-COLA"> <img src="./assets/image18.png" width="100px"  height="30px"></a></li>
             <li><a href="MASTERCARD">MASTERCARD</a></li>
             <li><a href="NASA"><img src="./assets/image17.png" width="100px"  height="32px" alt=""> </a></li>
             <li><a href="TOAST">TOAST</a></li>
             <li><a href="DOORDASH">DOORDASH</a></li>
-        </ul>
+            </ol>
 
     </section>
+    </article>
 
 
+
+    <article class="utility-container section">
     <div class="explore">
         <h6>EXPLORE & LEARN</h6>
         <h1>Explore educative resources you may need</h1>
@@ -218,6 +247,9 @@
             or just curious,there's always something new to explore.
         </p>
     </div>
+    </article>
+
+    <article class="utility-container section">
 
     <div class="explore-containers">
         <div class="explore-container1">
@@ -245,7 +277,10 @@
             <button>Explore</button>
         </div>
     </div>
+</article>
+         
 
+    <article class="utility-container section">
     <div id="Community" class="community">
 
         <div class="community-description">
@@ -260,14 +295,15 @@
             <button>Join Community</button>
         </div>
         <div class="community-image">
-            <img src="./assets/image16.png" alt="">
+            <img src="./assets/image3.png" alt="">
         </div>
     </div>
+    </article>
 
 
 
 
-
+    <article class="utility-container section">
         <div class="FAQSECTION">
             <div class="FAQSECTION1">
 
@@ -330,9 +366,10 @@
 
     </div>
     </div>
+    </article>
 
 
-
+  <article class="utility-container section">
     <div id="Contact">
         <div class="get-in-touch">
             <h6>GET IN TOUCH</h6>
@@ -344,27 +381,29 @@
                 email or social media.We look forward to serving you!
             </p>
         </div>
+        </article>
 
-
+  
+        <article class="utility-container section">
         <div class="contact">
 
             <div class="contact-details">
                 <h1>Contact Details:</h1>
                 <div class="contact-details1">
-                    <p>Email: contactbitestreet@gmail.com</p>
-                    <p>Phone: +254123456789</p>
+                    <p>Email: nilecoder8@gmail.com</p>
+                    <p>Phone: +254745653399</p>
                     <p>Address: Donholm Phase 8 Gate1</p>
 
                 </div>
 
                 <div class="contact-details2">
 
-                    <ul>
-                        <li><a href="#Facebook"><img src="./assets/image10.png" alt="" width="50px" height="50px"></a></li>
-                        <li><a href="#Whatssap"><img src="./assets/image12.png" alt="" width="50px" height="50px"></a></li>
-                        <li><a href="#Instagram"><img src="./assets/image13.png" alt="" width="50px" height="50px"></a></li>
-                        <li><a href="#Linkedin"><img src="./assets/image11.png" alt="" width="50px" height="50px"></a></li>
-                    </ul>
+                    <ol>
+                        <li><a href="#Facebook">Facebook</a></li>
+                        <li><a href="Linkedin">Linkedin</a></li>
+                        <li><a href="#Whatssap">Whatssap</a></li>
+                        <li><a href="#Instagram">Instagram</a></li>
+                      </ol>
 
                 </div>
 
@@ -389,18 +428,18 @@
                         <button>Send Message</button>
                     </form>
                 </div>
-
             </div>
-
         </div>
-    </div>
+    </article>
+
+    <article class="utility-container section">
 
     <div class="the-end">
 
         <div class="bitestreet1" id="BiteStreet">
             <h1>BiteStreet</h1>
 
-            <ul>
+            <ol>
                 <div class="link1">
                     <li><a href="#About">About</a></li>
                     <li><a href="#Services">Services</a></li>
@@ -409,7 +448,7 @@
                     <li><a href="#Community">Community</a></li>
                 </div>
 
-                <div class="link2">
+                  <div class="link2">
                     <li><a href="#Menu">Menu</a></li>
                     <li><a href="#Testimonials">Testimonials</a></li>
                     <li><a href="#Facebook">Facebook</a></li>
@@ -417,15 +456,15 @@
                     <li><a href="#YouTube">YouTube</a></li>
                 </div>
 
-                <div class="link3">
+                  <div class="link3">
                     <li><a href="#Linkedin">Linkedin</a></li>
                     <li><a href="#Whatssap">Whatssap</a></li>
                     <li><a href="#Twitter">Twitter</a></li>
                     <li><a href="#Terms of Service">Terms of Service</a></li>
                     <li><a href="#Privacy Policy">Privacy Policy</a></li>
-                </div>
+            </div>
 
-            </ul>
+            </ol>
             <p> &copy;[2030]. BiteStreet. All Rights Reserved.</p>
         </div>
 
@@ -442,6 +481,7 @@
             </p>
         </div>
     </div>
+    </article>
 
 </body>
 
