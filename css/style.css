@@ -1447,7 +1447,7 @@ a:hover{
 .sidebar{
     display: none;
 }
-
+/* 
 .image-container{
     border-radius: 2rem;
     position: relative;
@@ -1457,30 +1457,39 @@ a:hover{
     object-fit: cover;
     border-radius: 2rem;
 }
-
+ */
 .text-overlay{
-    position: absolute;
+   /*  position: absolute;
      top: 40%;
     left: 20%;
     right: 0%;
-    padding: auto;
+    */ padding: auto;
       display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     color: papayawhip;
     gap: .5rem;
+    background-image: url(../assets/image1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    image-rendering: auto;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60vh;
     
 }
 
 .text-overlay h1{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 
 .text-overlay p{
     padding-left: 1.5rem;
-    font-size: .5rem;
+    font-size: 1rem;
     font-weight: 600;
 }
 
@@ -1503,7 +1512,6 @@ a:hover{
 
 
 .text-overlay {
-    width: 38%;
     white-space: normal;
     animation: text-overlay 2s steps(20, end), cursor .2s steps(12, end) infinite;
 }
