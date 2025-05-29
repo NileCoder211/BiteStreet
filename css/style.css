@@ -1459,19 +1459,17 @@ a:hover{
 }
 
 .text-overlay{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     position: absolute;
-     top: 30%;
-    left: 0%;
-    right: 20%;
-    align-items: center;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+     top: 40%;
+    left: 20%;
+    right: 0%;
+    padding: auto;
+      display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
     color: papayawhip;
-    gap: 1rem;
+    gap: .5rem;
     
 }
 
