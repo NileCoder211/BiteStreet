@@ -1479,7 +1479,7 @@ a:hover{
     image-rendering: auto;
     margin-left: auto;
     margin-right: auto;
-    height: 60vh;
+    height: 40vh;
     
 }
 
@@ -1489,12 +1489,13 @@ a:hover{
 }
 
 .text-overlay p{
-    font-size: 1rem;
+    padding-left: 1rem;
+    font-size: 0.5rem;
     font-weight: 600;
 }
 
 .text-overlay button{
-    font-size: .5rem;
+    font-size: 1rem;
     background-color:papayawhip;
     border-radius: 15px;
     color: #8b3a00;
