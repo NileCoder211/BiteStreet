@@ -1980,9 +1980,9 @@ nav li:nth-child(5){
     image-rendering: auto;
     margin-left: auto;
     margin-right: auto;
-    height: 40vh;
     border-radius: 2rem;
     padding: 1rem;
+    height: auto;
 }
 
 .FAQSECTION1 h6{
