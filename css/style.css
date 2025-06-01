@@ -1330,7 +1330,8 @@ a:hover{
     padding-right: 0.5rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    border: 3px solid red;
+  /*   border: 3px solid red; */
+    position: relative;
  }
 
 .section{
@@ -1495,9 +1496,10 @@ nav li:nth-child(5){
 @keyframes cursor {
     50% { border-color: transparent }
 }
-.services{
+
+.Services{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 .quater{
     display: flex;
@@ -1544,10 +1546,15 @@ nav li:nth-child(5){
 }
 
 
-.service-image img{
+.service-image {
+    border-radius: 20px;
+}
+
+.service-image img {
     width: 100%;
     height: 100%;
     border-radius: 20px;
+    
 }
 
 .menu{
@@ -1765,15 +1772,23 @@ nav li:nth-child(5){
 
 .partners{
     display: flex;
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 .partners, ol, li, a{
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    font-size: 1rem;
+    font-size: .5rem;
     text-decoration: none;
-    font-weight: 600;
-    gap: 0.2rem;
+    font-weight: 400;
+    gap: 1rem;
+}
+
+.partners a{
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 .partners a:hover{
@@ -1970,7 +1985,7 @@ nav li:nth-child(5){
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    color: #8b3a00;
+    color: papayawhip;
     align-items: center;
     gap: 1rem;
     background-image: url(../assets/image15.png);
@@ -2280,7 +2295,7 @@ a:hover{
         padding-top: 2rem;
     }
 
-    
+   
 
  @media(min-width: 400px){
     .utility-container{
@@ -2298,6 +2313,17 @@ a:hover{
         padding-top: 2rem;
     }
 
+    
+.overlay{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: auto;
+    gap: .5rem;
+}
  }
 
  @media(min-width: 475px){
@@ -2311,13 +2337,24 @@ a:hover{
     .section{
         margin-top: 1rem;
     }
+    
+.overlay{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: auto;
+    gap: .5rem;
+}
   }
 
  @media(min-width: 640px){
     .utility-container{
         max-width: 640px;
     }
-
+ 
     .section{
         margin-top: 1rem;
     }
@@ -2327,10 +2364,22 @@ a:hover{
     min-height:60vh;
     
 }
+
 .text-overlay h1{
     font-size: 2rem;
 }
 
+ 
+.overlay{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: auto;
+    gap: .5rem;
+}
 .text-overlay p{
     font-size: 1rem;
     font-weight: 600;
@@ -2341,6 +2390,75 @@ a:hover{
     font-weight: 600;
    }
 
+   
+.Services{
+   display: flex;
+   gap: 1.7rem;
+}
+
+.quater{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 45%;
+    color:  #8b3a00;
+    gap: 1rem;
+}
+
+.quater h2{
+    font-size: 1.7rem;
+}
+
+.quater h6{
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-right: 9.5rem;
+}
+
+.quater p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+
+.quater button{
+    font-size: 1.2rem;
+    font-weight: 400;
+    background-color:papayawhip;
+    border-radius: 15px;
+    color: #8b3a00;
+    cursor: pointer;
+    padding: 0.5rem .5rem;
+    height: auto;
+    margin-right:9rem;
+    border: none;
+    justify-content: flex-start;
+}
+
+.quater  button:hover {
+    background-color:  #8b3a00;
+    border: 3px solid  papayawhip;
+    color:  papayawhip;
+
+}
+
+
+.service-image {
+    
+    width: 50%;
+}
+
+.service-image img{
+    object-position: center;
+    object-fit: cover;
+    width: 100%;
+    display: block;
+    
+}
+
+ 
 }
 
  @media(min-width: 768px){
@@ -2361,19 +2479,55 @@ a:hover{
     min-height:60vh;
     
 }
+
+
+.overlay{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: auto;
+    gap: .5rem;
+}
 .text-overlay h1{
     font-size: 2.3rem;
 }
 
 .text-overlay p{
-    font-size: 1rem;
-    font-weight: 600;
+    padding-left: 3rem;
+    font-size: 1.2rem;
+    font-weight: 400;
 }
 
 .text-overlay button{
-    font-size: 1rem;
-    font-weight: 600;
-   }
+    font-size: 1.2rem;
+    font-weight: 400;
+   } 
+
+   
+.quater button{
+    margin-right:11rem;
+}
+
+.quater h6{
+    padding-right: 13rem;
+}
+
+.quater h2{
+    padding-right: 7rem;
+}
+
+.quater button{
+    margin-right: 13rem;
+}
+
+.Services{
+   display: flex;
+   gap: 2.2rem;
+}
+
  }
 
  @media(min-width: 1024px){
@@ -2460,19 +2614,61 @@ nav, a{
     min-height:70vh;
     
 }
+
+
+.overlay{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: auto;
+    gap: .5rem;
+}
 .text-overlay h1{
     font-size: 2.5rem;
 }
 
 .text-overlay p{
     font-size: 1.3rem;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .text-overlay button{
     font-size: 1.3rem;
-    font-weight: 600;
-   }
+    font-weight: 400;
+   } 
+
+   
+   
+.quater h2{
+    font-size: 2rem;
+    padding-right: 15rem;
+}
+
+.quater h6{
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-right: 20rem;
+}
+
+.quater p{
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.quater button{
+    margin-right:13rem;
+    font-size: 1.3rem;
+}
+
+
+.Services{
+   display: flex;
+   gap: 2.5rem;
+}
 
 
  }
@@ -2492,41 +2688,12 @@ nav, a{
         margin-top: 1rem;
         margin-bottom: 0;
     }
-    
-nav ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    list-style: none;
-    flex-wrap: wrap;
-    gap: .5rem;
-}
 
+    
 nav, a{
     height:50px;
     font-size: 1.5rem;
-    color:#8b3a00;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0 ;
     
-}
-
-.nav-left, .nav-center, .nav-right {
-  display: flex;
-  align-items: center;
-}
-
-.nav-center {
-  justify-content: center;
-  flex: 1;
-}
-
-.nav-left, .nav-right {
-  flex: 1;
 }
 
 .nav-left {
@@ -2540,41 +2707,68 @@ nav, a{
   padding-left: 11.5rem;
   padding-top: 2rem;
 }
-
-.nav-links a {
-  padding: 0 1rem;
-  text-decoration: none;
-}
-
-
- .nav-links a{
-    color: #8b3a00;
-    margin: 0;
-}
-
- nav a:hover{
-    color:rgb(241, 182, 87);
-}
     
 .text-overlay{
-    min-width: 600px;
-    min-height:70vh;
-    
+    min-height:75vh;
+}
+
+.overlay{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    gap: .5rem;
+    width: 400px;
 }
 .text-overlay h1{
-    font-size: 2.5rem;
+    font-size: 2.3rem;
 }
 
 .text-overlay p{
     font-size: 1.3rem;
-    font-weight: 600;
+    font-weight: 400;
+    letter-spacing: 1px;
 }
 
 .text-overlay button{
     font-size: 1.3rem;
-    font-weight: 600;
+    font-weight: 400;
    }
+ 
+   
+.quater h2{
+    font-size: 3rem;
+    padding-right: 15rem;
+}
 
+.quater h6{
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-right: 25.5rem;
+}
+
+.quater p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.quater button{
+    margin-right:26.5rem;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+}
+
+.quater{
+    gap: 2rem;
+}
+
+.Services{
+   display: flex;
+   gap: 3.7rem;
+}
 
   
  }
@@ -2591,4 +2785,74 @@ nav, a{
     }
 
     
- }
+nav, a{
+    height:50px;
+    font-size: 1.5rem;
+    
+}
+
+.nav-left {
+  justify-content: flex-start;
+  padding-right: 11.5rem;
+  padding-top: 2rem;
+}
+
+.nav-right {
+  justify-content: flex-end;
+  padding-left: 11.5rem;
+  padding-top: 2rem;
+}
+    
+.text-overlay{
+    min-height:80vh;
+}
+
+.overlay{
+    width: 500px;
+}
+.text-overlay h1{
+    font-size: 4rem;
+}
+
+.text-overlay p{
+    font-size: 2rem;
+}
+
+.text-overlay button{
+    font-size: 2rem;
+   }
+
+   
+.quater h2{
+    font-size: 3rem;
+    padding-right: 15rem;
+}
+
+.quater h6{
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-right: 25.5rem;
+}
+
+.quater p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.quater button{
+    margin-right:26.5rem;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+}
+
+.quater{
+    gap: 2rem;
+}
+
+.Services{
+   display: flex;
+   gap: 2.7rem;
+}
+
+  }
