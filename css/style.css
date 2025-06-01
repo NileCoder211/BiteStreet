@@ -1330,7 +1330,7 @@ a:hover{
     padding-right: 0.5rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-  /*   border: 3px solid red; */
+   /*  border: 3px solid red; */ 
     position: relative;
  }
 
@@ -2280,7 +2280,7 @@ a:hover{
 }
 
 .bitestreet2 h1{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .bitestreet2 p{
@@ -2295,6 +2295,59 @@ a:hover{
         padding-top: 2rem;
     }
 
+    .bitestreett a{
+        display: none;
+    }
+
+ @media (min-width:320px){
+
+     .utility-container{
+
+        max-width: 320px;
+        
+
+    }
+
+    .section{
+        margin-top: 0rem;
+    }
+    
+    .menu-button{
+        padding-top: 2rem;
+    }
+
+
+    
+.text-overlay{
+    min-height:50vh; 
+}
+
+
+.overlay{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+     width: 280px;
+    height: auto;
+    gap: .5rem;
+}
+.text-overlay h1{
+    font-size: 1.3rem;
+}
+
+.text-overlay p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.text-overlay button{
+    font-size: 1rem;
+    font-weight: 400;
+   } 
+
+}
    
 
  @media(min-width: 400px){
@@ -2314,6 +2367,14 @@ a:hover{
     }
 
     
+
+.text-overlay{
+    min-width: 380px;
+    min-height:50vh;
+    
+}
+
+
 .overlay{
     display: flex;
     flex-direction: column;
@@ -2324,6 +2385,22 @@ a:hover{
     height: auto;
     gap: .5rem;
 }
+.text-overlay h1{
+    font-size: 1.3rem;
+}
+
+.text-overlay p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.text-overlay button{
+    font-size: 1rem;
+    font-weight: 400;
+   } 
+
+
+
  }
 
  @media(min-width: 475px){
@@ -2344,7 +2421,7 @@ a:hover{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width: 300px;
+    width: 250px;
     height: auto;
     gap: .5rem;
 }
