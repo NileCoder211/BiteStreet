@@ -1589,9 +1589,18 @@ nav li:nth-child(5){
 }
 
 
+.menu-item1{
+    background-image: url(../assets/image5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    image-rendering: auto;
+    border-radius: 2rem;
+}
+
+
 .menu-text1{
     color:#8b3a00;
-    background-color: papayawhip;
     gap: 3rem;
     border-radius:2rem;
     padding: 1rem;
@@ -1631,9 +1640,19 @@ nav li:nth-child(5){
 
 }
 
+
+
+.menu-item2{
+    background-image: url(../assets/image6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    image-rendering: auto;
+    border-radius: 2rem;
+}
+
 .menu-text2{
-    color:papayawhip;
-    background-color:#8b3a00 ;
+    color:#8b3a00;
     border-radius: 2rem;
     padding: 1rem;
     margin: .5rem;
@@ -1673,13 +1692,21 @@ nav li:nth-child(5){
 
 }
 
+.menu-item3{
+    background-image: url(../assets/image4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    image-rendering: auto;
+    border-radius: 2rem;
+}
 
 .menu-text3{
     color:#8b3a00;
-    background-color: papayawhip;
     gap: 3rem;
     border-radius:2rem;
     padding: 1rem;
+    
 }
 
 .menu-text3 h1{
@@ -2353,6 +2380,51 @@ a:hover{
 }
 
 
+.menu1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.menu-item1{
+    padding-left: 2.5rem;
+    padding-right: 2rem;
+    gap: 1rem;
+}
+.menu-item1 h1{
+    padding-bottom: 1rem;
+}
+.menu-item2{
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+
+.menu-item2 h1{
+    padding-top: 0rem;
+}
+
+.menu-item2 p{
+    padding-right: 3.8rem;
+    padding-left: .5rem;
+}
+.menu-item3{
+    padding-left: 0rem;
+    padding-right: 2rem;
+    gap: 1rem;
+}
+.menu-item3 h1{
+    padding-bottom: 0rem;
+}
+
+
+
 }
    
 
@@ -2413,7 +2485,7 @@ a:hover{
     justify-content: center;
     flex-wrap: wrap;
     color: #8b3a00;
-}
+   }
 
 .menu h6{
     font-size: 1rem;
@@ -2430,6 +2502,47 @@ a:hover{
     line-height: 1.6;
     padding-left: 4rem;
     padding-right: 4rem;
+}
+
+
+.menu1{
+     width: 380px;
+
+}
+
+.menu-item1{
+    padding-left: 2.5rem;
+    padding-right: 2rem;
+    gap: 1rem;
+}
+.menu-item1 h1{
+    padding-bottom: 1rem;
+}
+.menu-item2{
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+
+.menu-item2 h1{
+    padding-left: 2rem;
+}
+
+.menu-item2 p{
+    padding-right: 5.8rem;
+    padding-left: 1.5rem;
+}
+
+.menu-item2 button{
+    margin-left: 1.5rem;
+}
+.menu-item3{
+    padding-left: 0rem;
+    padding-right: 2rem;
+    gap: 1rem;
+}
+.menu-item3 h1{
+    padding-bottom: 0rem;
 }
 
 
@@ -2459,7 +2572,66 @@ a:hover{
     height: auto;
     gap: .5rem;
 }
-  }
+
+
+.menu1{
+     width: 460px;
+
+}
+
+.menu-item1{
+    padding-left: 2.5rem;
+    padding-right: 2rem;
+    gap: 1rem;
+}
+
+.menu-item1 h1{
+    padding-left: 1rem;
+}
+
+.menu-item1 p{
+    padding-right: 4rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.menu-item1 button{
+    margin-left: 1rem;
+}
+.menu-item2{
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+
+.menu-item2 h1{
+    padding-left: 4rem;
+    padding-bottom: 1rem;
+}
+
+.menu-item2 p{
+    padding-right: 8rem;
+    padding-left: 4rem;
+}
+
+.menu-item2 button{
+    margin-left: 3.5rem;
+}
+.menu-item3{
+    padding-left: 0rem;
+    padding-right: 2rem;
+    gap: 1rem;
+}
+
+.menu-item3 h1{
+    padding-bottom: 1rem;
+}
+
+.menu-item3 p{
+    padding-right: 6rem;
+}
+
+}
 
  @media(min-width: 640px){
     .utility-container{
@@ -2586,7 +2758,155 @@ a:hover{
     padding-right: 6rem;
 }
 
- 
+.menu1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.menu-text1{
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 5rem;
+
+}
+
+.menu-text1 h1{
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+
+.menu-text1 p{
+    font-size: 1rem;
+    padding-bottom: 1rem;
+
+}
+.menu-text1 button{
+    font-size: 1.1rem;
+    margin-left: -.1rem;
+}
+
+.menu-text2{
+    width: 100%;
+}
+
+.menu-text2 h1{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    
+}
+
+.menu-text2 p{
+    font-size: 1rem;
+    padding-bottom: 1rem;
+
+}
+.menu-text2 button{
+    font-size: 1rem;
+    margin-left: -.1rem;
+   
+}
+
+
+.menu-text3{
+    gap: 2rem;
+    border-radius:2rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+
+.menu1{
+     width: 620px;
+
+}
+
+.menu-item1{
+    padding-left: 0rem;
+    padding-right: 0rem;
+    gap: 1rem;
+    width: 100%;
+}
+
+.menu-item1 h1{
+    padding-left: 0rem;
+    padding-top: 2rem;
+}
+
+.menu-item1 p{
+    padding-right: 0rem;
+    padding-left: .2rem;
+    padding-bottom: .2rem;
+    font-size: 1.2rem;
+}
+
+.menu-item1 button{
+    margin-left: .2rem;
+    font-size: 1.2rem;
+}
+.menu-item2{
+    gap: 1rem;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+
+.menu-item2 h1{
+    padding-left: .5rem;
+    padding-bottom: 0rem;
+}
+
+.menu-item2 p{
+    padding-top: 1.5rem;
+    padding-right: 4.5rem;
+    padding-left: 0rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.menu-item2 button{
+    margin-left: .5rem;
+    font-size: 1.2rem;
+}
+.menu-item3{
+    padding-left: 0rem;
+    padding-right: 2rem;
+    gap: 1rem;
+}
+
+.menu-item3 h1{
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.menu-item3 p{
+    padding-right: 0rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.menu-item3 button{
+    padding:auto;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+
+
 }
 
  @media(min-width: 768px){
@@ -2674,7 +2994,150 @@ a:hover{
 }
 
 
+.menu1{
+    gap: 2rem;
+    width: 740px;
+   }
+
+
+
+.menu-text1 h1{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    
+}
+
+.menu-text1 p{
+    font-size: 1.1rem;
+    padding-bottom: 1rem;
+
+}
+.menu-text1 button{
+    font-size: 1.1rem;
+}
+
+
+.menu-text2 h1{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    
+}
+
+.menu-text2 p{
+    font-size: 1.1rem;
+    padding-bottom: 1rem;
+
+}
+.menu-text2 button{
+    font-size: 1rem;
+}
+
+
+.menu-text3{
+    gap: 2rem;
+    border-radius:2rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.menu-text3 h1{
+    font-size: 1.5rem;
+    
+}
+
+.menu-text3 p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.6;
+
+}
+
+.menu-text3 button{
+    font-size: 1.2rem;
+    font-weight: 400;
  }
+
+ 
+.menu1{
+     width: 750px;
+
+}
+
+.menu-item1{
+    padding-left: 0rem;
+    padding-right: 0rem;
+    gap: 1rem;
+    width: 100%;
+}
+
+.menu-item1 h1{
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.menu-item1 p{
+    padding-right: 0rem;
+    padding-left: 1rem;
+    padding-bottom: .2rem;
+    font-size: 1.2rem;
+}
+
+.menu-item1 button{
+    margin-left: 1rem;
+    font-size: 1.2rem;
+}
+.menu-item2{
+    gap: 1rem;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+
+.menu-item2 h1{
+    padding-left: .5rem;
+    padding-bottom: 0rem;
+}
+
+.menu-item2 p{
+    padding-top: 1.5rem;
+    padding-right: 5.5rem;
+    padding-left: 0rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.menu-item2 button{
+    margin-left: .5rem;
+    font-size: 1.2rem;
+}
+.menu-item3{
+    padding-left: 0rem;
+    padding-right: 2rem;
+    gap: 1rem;
+}
+
+.menu-item3 h1{
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.menu-item3 p{
+    padding-right: 0rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.menu-item3 button{
+    padding:auto;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+}
 
  @media(min-width: 1024px){
     .utility-container{
@@ -2820,9 +3283,155 @@ nav, a{
 .menu p{
     font-size: 1.2rem;
     font-size: 400;
-    padding-left: 10rem;
-    padding-right: 10rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
 }
+
+
+.menu1{
+    gap: 2rem;
+    width: 1000px;
+   }
+
+
+.menu-text1{
+    height: 60vh;
+}
+.menu-text1 h1{
+    font-size: 1.7rem;
+    padding-bottom: 1rem;
+    
+}
+
+.menu-text1 p{
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+
+}
+.menu-text1 button{
+    font-size: 1.3rem;
+}
+
+.menu-text2{
+    height: 60vh;
+}
+.menu-text2 h1{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    
+}
+
+.menu-text2 p{
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+
+}
+.menu-text2 button{
+    font-size: 1.3rem;
+   
+}
+
+
+.menu-text3{
+    gap: 2rem;
+    padding: 1.5rem;
+    width: 600px;
+}
+
+.menu-text3 h1{
+    font-size: 1.5rem;
+    
+}
+
+.menu-text3 p{
+    font-size: 1.3rem;
+
+}
+
+.menu-text3 button{
+    font-size: 1.3rem;
+ }
+
+ 
+.menu1{
+     width: 1000px;
+
+}
+
+.menu-item1{
+    padding-left: 0rem;
+    padding-right: 0rem;
+    gap: 1rem;
+    width: 100%;
+    height: 70vh;
+}
+
+.menu-item1 h1{
+    padding-top: 2.5rem;
+    padding-left: 2rem;
+}
+
+.menu-item1 p{
+    padding-right: 0rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.menu-item1 button{
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+.menu-item2{
+    gap: 1rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    height: 70vh;
+}
+
+
+.menu-item2 h1{
+    padding-left: 2rem;
+    padding-bottom: 0rem;
+}
+
+.menu-item2 p{
+    padding-top: 1.5rem;
+    padding-right: 9rem;
+    padding-left: 2.3rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.menu-item2 button{
+    margin-left: 2rem;
+    font-size: 1.2rem;
+}
+.menu-item3{
+    padding-left: 0rem;
+    padding-right: 2rem;
+    gap: 1rem;
+}
+
+.menu-item3 h1{
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.menu-item3 p{
+    padding-right: 0rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.menu-item3 button{
+    padding:auto;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+
 
 
 
@@ -2840,7 +3449,7 @@ nav, a{
 
     
     .section{
-        margin-top: 2rem;
+        margin-top: 3rem;
         margin-bottom: 0;
     }
 
@@ -2894,18 +3503,18 @@ nav, a{
  
    
 .quater h2{
-    font-size: 3rem;
+    font-size: 2rem;
     padding-right: 15rem;
 }
 
 .quater h6{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 400;
     padding-right: 25.5rem;
 }
 
 .quater p{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 400;
     line-height: 1.6;
 }
@@ -2927,11 +3536,154 @@ nav, a{
 
 
 .menu p{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-size: 400;
     padding-left: 12rem;
     padding-right: 12rem;
 }
+
+
+.menu1{
+    gap: 4rem;
+    width: 1240px;
+    height: 50vh;
+   }
+
+
+.menu-text1{
+    height: 50vh;
+}
+.menu-text1 h1{
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+    
+}
+
+.menu-text1 p{
+    font-size: 1.3rem;
+    padding-bottom: 1.5rem;
+
+}
+.menu-text1 button{
+    font-size: 1.3rem;
+}
+
+.menu-text2{
+    height: 50vh;
+}
+.menu-text2 h1{
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+    
+}
+
+.menu-text2 p{
+    font-size: 1.3rem;
+    padding-bottom: 1.5rem;
+
+}
+.menu-text2 button{
+    font-size: 1.3rem;
+   
+}
+
+
+
+.menu-text3{
+    gap: 2rem;
+    padding: 1.5rem;
+    width: 650px;
+    height: 70vh;
+}
+
+.menu-text3 h1{
+    font-size: 2rem;
+    
+}
+
+
+.menu1{
+    width: 1260px;
+}
+
+.menu-item1{
+    padding-left: 0rem;
+    padding-right: 0rem;
+    gap: .5rem;
+    width: 100%;
+    height: 60vh;
+}
+
+.menu-item1 h1{
+    padding-top: .5rem;
+    padding-left: 3rem;
+    font-size: 2rem;
+}
+
+.menu-item1 p{
+    padding-right: 2rem;
+    padding-left: 3rem;
+    padding-top: 0rem;
+    font-size: 1.3rem;
+}
+
+.menu-item1 button{
+    margin-left: 3rem;
+    font-size: 1.3rem;
+    margin-top: 3rem;
+    
+}
+.menu-item2{
+    gap: 1rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    height: 60vh;
+
+}
+
+
+.menu-item2 h1{
+    padding-left: 5rem;
+    padding-bottom: 0rem;
+    
+}
+
+.menu-item2 p{
+    padding-top: .5rem;
+    padding-right: 11rem;
+    padding-left: 5.5rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.menu-item2 button{
+    margin-left: 5rem;
+    font-size: 1.3rem;
+    margin-bottom: 4rem;
+}
+.menu-item3{
+    padding-left: 0rem;
+    padding-right: 2rem;
+    gap: 1rem;
+}
+
+.menu-item3 h1{
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.menu-item3 p{
+    padding-right: 0rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.menu-item3 button{
+    padding:auto;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
 
 
   
@@ -3025,6 +3777,89 @@ nav, a{
     padding-left: 12rem;
     padding-right: 12rem;
 }
+
+
+.menu1{
+    width: 1500px;
+}
+
+.menu-text1 h1{
+    font-size: 2rem;
+    padding-bottom: 1.8rem;
+}
+
+.menu-text1 p{
+    padding-bottom: 1.8rem;
+
+}
+.menu-text2 h1{
+    padding-bottom: 1.8rem;
+}
+
+.menu-text2 p{
+    padding-bottom: 1.8rem;
+}
+
+
+.menu-text3{
+    width: 1500px;
+}
+
+
+.menu1{
+    width: 1510px;
+}
+
+.menu-item1{
+    padding-left: 0rem;
+    padding-right: 0rem;
+    gap: .5rem;
+    width: 100%;
+    height: 60vh;
+}
+
+.menu-item1 h1{
+    font-size: 2.3rem;
+}
+
+.menu-item1 p{
+    font-size: 1.4rem;
+}
+
+.menu-item1 button{
+    font-size: 1.4rem;
+    
+}
+
+.menu-item2 h1{
+    font-size: 2.3;
+    
+}
+
+.menu-item2 p{
+    font-size: 1.3rem;
+}
+
+.menu-item2 button{
+    font-size: 1.4rem;
+}
+
+.menu-item3 h1{
+    font-size: 2.3rem;
+}
+
+.menu-item3 p{
+    font-size: 1.4rem;
+}
+
+.menu-item3 button{
+    font-size: 1.4rem;
+}
+
+
+
+
+
 
 
   }
