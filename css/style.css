@@ -1955,6 +1955,8 @@ nav li:nth-child(5){
     color:  #8b3a00;
 }
 
+
+
 .community-description{
     display: flex;
     flex-direction: column;
@@ -2906,6 +2908,333 @@ a:hover{
 }
 
 
+.testimonials-section{
+    display: flex;
+    flex-direction: row;
+    width: 620px;
+    gap: 2rem;
+}
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    width: 40%;
+   }
+
+.testimonials h6{
+    padding-top: 3rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.testimonials h1{
+    font-size: 1.5rem;
+}
+
+.testimonials p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+
+.carousel-container {
+    width: 60%;
+    overflow-x: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  flex-direction: row;
+  transition: transform 0.4s ease;
+  scroll-behavior: smooth;
+  overflow-x:hidden;
+  scrollbar-width: none; 
+  max-width: 1500px;
+  gap: 1rem;
+}
+.carousel-track::-webkit-scrollbar {
+  display: none; 
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: 200px;
+    height: 60vh;
+    gap: 2rem;
+    padding-top: 3rem;
+}
+
+.card p{
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.card span{
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+
+.carousel-btn {
+    display: inline;
+    flex-direction: row;
+}
+
+.testimonials button{
+    display: inline-block;
+    gap: 1rem;
+    font-size: 2rem;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+
+.carousel-btn.left {
+    background-color: papayawhip;
+    border: none;
+    color: #8b3a00;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.carousel-btn.right {
+    background-color:#8b3a00;
+    border: none;
+    color: papayawhip;
+}
+
+
+
+.partners{
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 620px;
+    border: 2px solid black; 
+}
+
+.partners p{
+    margin: 0;
+    font-size: 1rem;
+}
+
+.our-partners  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 400;
+    gap: 1.5rem;
+    align-items: center;
+    padding-left: .5rem;
+    border-radius: 1.5rem;
+
+}
+
+.our-partners  a{
+    font-size: 1rem;
+   }
+
+   
+.explore{
+    color: #8b3a00;
+}
+
+.explore h6{
+    font-size: 1rem;
+}
+
+.explore h1{
+    font-size: 1.5rem;
+}
+
+.explore p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+    padding: 0 2rem;
+}
+
+.explore-containers{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.explore-container1{
+    background-color: papayawhip;
+    color: #8b3a00;
+    border-radius: 2rem;
+    padding:  0.5rem;
+    margin-bottom: 1rem;
+}
+
+.explore-container1 h1{
+    font-size: 1.5rem;
+}
+
+.explore-container1 p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.explore-container1 button{
+    font-size: 1rem;
+    background-color:#8b3a00;
+    border-radius: 15px;
+    color: papayawhip;
+    cursor: pointer;
+    padding: 0.5rem .5rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin: 0.5rem;
+    border: none;
+}
+
+.explore-container1  button:hover {
+    background-color:  papayawhip;
+    border: 3px solid  #8b3a00;
+    color:  #8b3a00;
+}
+
+.explore-container2{
+    background-color: #8b3a00;
+    color: papayawhip;
+    border-radius: 2rem;
+    padding:  0.5rem;
+    margin-bottom: 1rem;
+}
+
+.explore-container2 h1{
+    font-size: 1.5rem;
+}
+
+.explore-container2 p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.explore-container2 button{
+    font-size: 1rem;
+    background-color:papayawhip;
+    border-radius: 15px;
+    color: #8b3a00;
+    cursor: pointer;
+    padding: 0.5rem .5rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin: .5rem;
+    border: none;
+}
+
+.explore-container2  button:hover {
+    background-color:#8b3a00;
+    border: 3px solid  papayawhip;
+    color: papayawhip;
+}
+
+.explore-container3{
+    background-color: papayawhip;
+    color: #8b3a00;
+    border-radius: 2rem;
+    padding:  0.5rem;
+    margin-bottom: 1rem;
+}
+
+.explore-container3 h1{
+    font-size: 1.5rem;
+}
+
+.explore-container3 p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.explore-container3 button{
+    font-size: 1rem;
+    background-color:#8b3a00;
+    border-radius: 15px;
+    color: papayawhip;
+    cursor: pointer;
+    padding: 0.5rem .5rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin: 0.5rem;
+    border: none;
+}
+
+.explore-container3  button:hover {
+    background-color:  papayawhip;
+    border: 3px solid  #8b3a00;
+    color:  #8b3a00;
+}
+
+.community{
+    display: flex;
+    flex-direction: row;
+    width: 620px;
+    gap: 1rem;
+}
+
+.community-description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    margin:.5rem;
+    width: 30%;
+}
+
+.community-description h6{
+   font-size: 1rem;
+}
+
+.community-description h1{
+   font-size: 1.5rem;
+}
+
+.community-description p{
+   font-size: 1rem;
+}
+
+
+.community-description button{
+    font-size: 1rem;
+    border-radius: 1.5rem;
+    padding: .5rem;
+    margin-left: -.2rem;
+}
+
+.community-image {
+    width: 70%;
+}
+
+.community-image img{
+    border-radius: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
 
 }
 
@@ -3137,6 +3466,222 @@ a:hover{
     font-weight: 400;
 }
 
+
+.testimonials-section{
+    width: 750px;
+    gap: 2rem;
+}
+.testimonials{
+    gap: 1rem;
+    width: 40%;
+   }
+
+.testimonials h6{
+    padding-top: 3rem;
+    font-size: 1.2rem;
+}
+
+.testimonials h1{
+    font-size: 1.5rem;
+}
+
+.testimonials p{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+
+
+.carousel-container {
+    width: 60%;
+    overflow-x: hidden;
+}
+
+.carousel-track {
+  gap: 2.5rem;
+}
+
+
+.card p{
+    font-size: 1.2rem
+    
+}
+
+.card span{
+    font-size: 1.2rem;
+}
+
+
+
+.carousel-btn.right {
+    background-color:#8b3a00;
+    border: none;
+    color: papayawhip;
+}
+
+
+.partners{
+    width: 750px;
+    border: 2px solid black;
+    font-weight: 400;
+    font-size: 1.1rem;
+    
+}
+
+.partners, ol, li, a{
+    gap: 2rem;
+    border: none;
+}
+
+.partners a{
+    font-size: 1.1rem;
+    font-weight: 400;
+    
+}
+
+.explore h6{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.explore h1{
+    font-size: 1.6rem;
+}
+
+.explore p{
+    font-size: 1.1rem;
+    padding: 0 6rem;
+}
+
+.explore-containers{
+    gap: 1rem;
+}
+
+.explore-container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:  0 1rem;
+    padding-top: 1rem;
+}
+
+.explore-container1 h1{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+}
+
+.explore-container1 p{
+    font-size: 1.1rem;
+    padding-bottom: 1.1rem;
+}
+
+.explore-container1 button{
+    padding: 0.5rem .5rem;
+    width: 100px;
+    border: none;
+    font-size: 1.1rem;
+}
+
+.explore-container2{
+    padding:  0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem;
+    gap: 1rem;
+    padding-top: 2rem;
+}
+
+.explore-container2 h1{
+    font-size: 1.5rem;
+}
+
+.explore-container2 p{
+    font-size: 1.1rem;
+    
+}
+
+.explore-container2 button{
+    width: 100px;
+    border: none;
+    font-size: 1.1rem;
+}
+
+.explore-container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    gap: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.explore-container3 h1{
+    font-size: 1.5rem;
+
+}
+
+.explore-container3 p{
+    font-size: 1.1rem;
+}
+
+.explore-container3 button{
+    font-size: 1.1rem;
+    width: 100px;
+    border: none;
+}
+
+.community{
+    display: flex;
+    flex-direction: row;
+    width: 750px;
+    gap: 1rem;
+}
+
+.community-description{
+    gap: 1rem;
+}
+
+.community-description h6{
+   font-size: 1.2rem;
+}
+
+.community-description h1{
+   font-size: 1.7rem;
+}
+
+.community-description p{
+   font-size: 1.2rem;
+}
+
+
+.community-description button{
+    font-size: 1.2rem;
+    border-radius: 1.5rem;
+    padding: .5rem 1rem;
+    margin-left: -.2rem;
+}
+
+.community-image {
+    width: 70%;
+}
+
+.community-image img{
+    border-radius: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
 }
 
  @media(min-width: 1024px){
@@ -3355,7 +3900,6 @@ nav, a{
  
 .menu1{
      width: 1000px;
-
 }
 
 .menu-item1{
@@ -3432,6 +3976,147 @@ nav, a{
 }
 
 
+.testimonials-section{
+    width: 1000px;
+    gap: 2rem;
+}
+.testimonials{
+    gap: 2rem;
+    width: 40%;
+   }
+
+.testimonials h6{
+    padding-top: 3rem;
+    font-size: 1.2rem;
+}
+
+.testimonials h1{
+    font-size: 1.5rem;
+}
+
+.testimonials p{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+
+.card {
+    min-width: 250px;
+    height: 60vh;
+    gap: 2rem;
+    padding-top: 3rem;
+}
+
+
+.partners{
+    width: 1000px;
+    border: 2px solid black;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #8b3a00a8;
+    background-color: powderblue;
+}
+
+
+.explore h6{
+    font-size: 1.2rem;
+}
+
+.explore h1{
+    font-size: 1.7rem;
+}
+
+.explore p{
+    font-size: 1.2rem;
+    padding: 0 10rem;
+}
+
+
+.explore-containers{
+    gap: 1rem;
+}
+
+.explore-container1 h1{
+    font-size: 1.7rem;
+    padding-left: 0;
+}
+
+.explore-container1 p{
+    font-size: 1.2rem;
+}
+
+.explore-container1 button{
+    font-size: 1.2rem;
+}
+
+.explore-container2 h1{
+    font-size: 1.7rem;
+}
+
+.explore-container2 p{
+    font-size: 1.2rem;
+    
+}
+
+.explore-container2 button{
+    font-size: 1.2rem;
+}
+
+.explore-container3 h1{
+    font-size: 1.7rem;
+
+}
+
+.explore-container3 p{
+    font-size: 1.2rem;
+}
+
+.explore-container3 button{
+    font-size: 1.2rem;
+}
+
+
+.community{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    gap: 1rem;
+}
+
+.community-description{
+    gap: 1rem;
+    width: 35%;
+}
+
+.community-description h6{
+   font-size: 1.2rem;
+}
+
+.community-description h1{
+   font-size: 1.7rem;
+}
+
+.community-description p{
+   font-size: 1.2rem;
+}
+
+
+.community-description button{
+    font-size: 1.2rem;
+}
+
+.community-image img{
+    border-radius: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3454,7 +4139,7 @@ nav, a{
     }
 
     
-nav, a{
+nav a{
     height:50px;
     font-size: 1.5rem;
     
@@ -3520,9 +4205,14 @@ nav, a{
 }
 
 .quater button{
-    margin-right:26.5rem;
+    margin-left:-15rem;
     font-size: 1.3rem;
     margin-top: 2rem;
+    border: none;
+}
+
+.quater button:hover{
+    border: 3px solid rgb(252, 157, 6);
 }
 
 .quater{
@@ -3545,8 +4235,8 @@ nav, a{
 
 .menu1{
     gap: 4rem;
-    width: 1240px;
-    height: 50vh;
+    width: 1260px;
+    height: 60vh;
    }
 
 
@@ -3686,7 +4376,144 @@ nav, a{
 
 
 
-  
+.testimonials-section{
+    width: 1260px;
+    gap: 2rem;
+}
+.testimonials{
+    gap: 2rem;
+    width: 40%;
+   }
+
+.testimonials h6{
+    padding-top: 3rem;
+    font-size: 1.2rem;
+}
+
+.testimonials h1{
+    font-size: 2rem;
+}
+
+.testimonials p{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+
+.card {
+    min-width: 300px;
+    height: 55vh;
+    gap: 2rem;
+    padding-top: 3rem;
+    align-items: flex-start;
+}
+
+.card p{
+    font-size: 1.3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.card span{
+    font-size: 1.3rem;
+    padding-left: 2rem;
+}
+
+
+.explore h6{
+    font-size: 1.3rem;
+}
+
+.explore h1{
+    font-size: 2rem;
+    padding: 0 26rem;
+}
+
+.explore p{
+    font-size: 1.3rem;
+    padding: 0 20rem;
+}
+
+
+.explore-containers{
+    gap: 2rem;
+    height: 50vh;
+}
+
+.explore-container1{
+    gap: 1rem;
+    
+}
+.explore-container1 h1{
+    font-size: 2rem;
+    padding-left: 0;
+    padding-bottom: 1rem;
+}
+
+.explore-container1 p{
+    font-size: 1.3rem; 
+    padding-bottom: 1rem;
+}
+
+.explore-container1 button{
+    font-size: 1.3rem;
+}
+
+.explore-container2 h1{
+    font-size: 2rem;
+}
+
+.explore-container2 p{
+    font-size: 1.3rem;
+    padding-bottom: 2rem;
+    
+}
+
+.explore-container2 button{
+    font-size: 1.3rem;
+}
+
+.explore-container3 h1{
+    font-size: 2rem;
+
+}
+
+.explore-container3 p{
+    font-size: 1.3rem;
+    padding-bottom: 2rem;
+}
+
+.explore-container3 button{
+    font-size: 1.3rem;
+}
+
+
+.community{
+    width: 1260px;
+}
+
+.community-description{
+    gap: 2rem;
+}
+
+.community-description h6{
+   font-size: 1.3rem;
+}
+
+.community-description h1{
+   font-size: 2rem;
+}
+
+.community-description p{
+   font-size: 1.3rem;
+}
+
+
+.community-description button{
+    font-size: 1.3rem;
+}
+
+
  }
 
  @media(min-width: 1536px){
@@ -3856,6 +4683,80 @@ nav, a{
     font-size: 1.4rem;
 }
 
+.explore p{
+    font-size: 1.3rem;
+    padding: 0 22rem;
+}
+
+
+.explore-containers{
+    gap: 1rem;
+}
+
+.explore-container1 h1{
+    font-size: 2rem;
+    padding-left: 0;
+}
+
+.explore-container1 p{
+    font-size: 1.3rem;
+}
+
+.explore-container1 button{
+    font-size: 1.3rem;
+}
+
+.explore-container2 h1{
+    font-size: 2rem;
+}
+
+.explore-container2 p{
+    font-size: 1.3rem;
+    
+}
+
+.explore-container2 button{
+    font-size: 1.3rem;
+}
+
+.explore-container3 h1{
+    font-size: 2rem;
+
+}
+
+.explore-container3 p{
+    font-size: 1.3rem;
+}
+
+.explore-container3 button{
+    font-size: 1.3rem;
+}
+
+
+.community{
+    width: 1510px;
+}
+
+.community-description{
+    gap: 2rem;
+}
+
+.community-description h6{
+   font-size: 1.4rem;
+}
+
+.community-description h1{
+   font-size: 2rem;
+}
+
+.community-description p{
+   font-size: 1.4rem;
+}
+
+
+.community-description button{
+    font-size: 1.4rem;
+}
 
 
 
