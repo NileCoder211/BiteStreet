@@ -1330,7 +1330,6 @@ a:hover{
     padding-right: 0.5rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    border: 3px solid red; 
     position: relative;
  }
 
@@ -1372,7 +1371,7 @@ a:hover{
 }
 
 
-.nav-limks,ul,li, a{
+.nav-limks a{
     display: none;
 }
 .icon{
@@ -1803,7 +1802,7 @@ nav li:nth-child(5){
     font-weight: 400;
 }
 
-.partners, ol, li, a{
+.partners a{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -2010,6 +2009,7 @@ nav li:nth-child(5){
     border-radius: 1.5rem;
 }
 
+
 .FAQSECTION1{
     display: flex;
     flex-direction: column;
@@ -2105,6 +2105,7 @@ nav li:nth-child(5){
     color: var(--color);
 }
 
+
 .get-in-touch{
     display: flex;
     flex-direction: column;
@@ -2127,6 +2128,10 @@ nav li:nth-child(5){
     line-height: 1.6;
 }
 
+.contact{
+    background-color: papayawhip;
+    border-radius: 2rem;
+}
 
 .contact-details{
     display: flex;
@@ -2155,7 +2160,7 @@ nav li:nth-child(5){
 
 
 
-.contact-details2,ol, li, a {
+.contact-details2 ol li a {
     position:relative;
     display: flex;
     flex-direction: column;
@@ -2257,7 +2262,7 @@ a:hover{
 
 .bitestreet1 a{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 1rem;
     font-size: 1rem;
     border-radius: 30px;
@@ -2306,6 +2311,10 @@ a:hover{
     color: #8b3a00;
     margin-top: 3rem;
     padding: 1rem 2rem;
+    background-image: url(../assets/image7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .bitestreet2 h1{
@@ -2319,18 +2328,14 @@ a:hover{
 }
 
     
-
-    .menu-button{
-        padding-top: 2rem;
-    }
+ .menu-button{
+    padding-top: 2rem;
+}
 
  @media (min-width:320px){
 
      .utility-container{
-
         max-width: 320px;
-        
-
     }
 
     .section{
@@ -2425,6 +2430,238 @@ a:hover{
     padding-bottom: 0rem;
 }
 
+.partners{
+    border: 2px solid #8b3a00;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 1rem;
+    background-color: papayawhip;
+    border-radius: 2rem;
+}
+
+.partners p{
+    font-size: 1rem;
+}
+
+.our-partners a{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:
+    flex-start;
+    justify-content: flex-start;
+    font-size: 1rem;
+    padding-top: 1rem;
+    color: #8b3a00;
+}
+
+
+.contact{
+    padding: 1rem;
+}
+
+
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: #8b3a00;
+    padding-left: 0;
+}
+.contact-details h1{
+    font-size: 1.5rem;
+}
+
+.contact-details1  {
+    font-size: 1.2rem;
+}
+
+.contact-details1  p{
+    font-size: 1rem;
+}
+
+
+.contact-details2 a {
+    position:relative;
+    display: inline-block;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+.contact-details2 a:hover{
+    text-decoration: #8b3a00;
+}
+.contact-details3 p{
+    padding-top: 2rem;
+   font-size: 1rem;
+   font-weight: 400;
+}
+
+.message{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.message h1{
+    color:#8b3a00;
+    font-size: 1.5rem;
+}
+.message1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color:#8b3a00;
+    font-size: 1rem;
+    padding: 2rem 1rem;
+    border-radius: 2rem;
+    color:  papayawhip;
+}
+
+ form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+ }
+
+ label{
+    font-family: sans-serif;
+    font-weight: 400;
+    color: papayawhip;
+    font-size: 1rem;
+ }
+
+ input, textarea{
+    width: 230px;
+    border: none;
+    border-bottom: 0.2rem solid papayawhip;
+    background-color: transparent;
+    color: papayawhip;
+    font-size: 1rem; 
+    outline: none;
+ }
+
+ ::placeholder{
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: rgba(255, 239, 213, 0.582);
+ }
+
+ form button{
+    font-size: 1rem;
+    width: 230px;
+    border-radius: 2rem;
+    background-color: papayawhip;
+    color:#8b3a00;
+    padding: .5rem 1rem;
+    border: none;
+ }
+
+ form button:hover{
+    border: 2px solid papayawhip;
+    background-color: rgba(255, 239, 213, 0.479);
+    color: papayawhip;
+ }
+ 
+.the-end{
+    display: flex;
+    flex-direction: column;
+}
+
+.bitestreet1 {
+    background-color: #8b3a00;
+    color: papayawhip;
+    border-radius: 2rem;
+    
+}
+
+.bitestreet1 h1{
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 400;
+    padding-left: 1rem;
+}
+
+.bitestreet1 a{
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 .5rem;
+    gap: 1rem;
+    font-size: 1rem;
+    border-radius: 30px;
+    color: papayawhip;
+    text-decoration: none;
+}
+
+.links-container{
+    display: flex;
+    gap: 1rem;
+}
+
+.links1 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.links2 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.links3 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.bitestreet1 p{
+    font-size: 1rem;
+    color: rgba(255, 239, 213, 0.432);
+}
+
+
+.bitestreet2{
+    display: flex;
+    flex-direction: column;
+    border-radius: 2rem;
+    background-color: papayawhip;
+    color: #8b3a00;
+    background-image: url(../assets/image7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bitestreet2 p{
+    font-size: 1rem;
+    font-weight: 700;
+    padding-right: 8rem;
+}
+
+.bitestreet2 button{
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: papayawhip;
+    border: none;
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+    color: #8b3a00;
+}
+
+.bitestreet2 button:hover{
+    border: 2px solid papayawhip;
+    background-color: #8b3a00;
+    color: papayawhip;
+}
+
+
 
 
 }
@@ -2479,7 +2716,6 @@ a:hover{
     font-weight: 400;
    } 
 
-   
 .menu{
     display: flex;
     flex-direction: column;
@@ -2505,7 +2741,6 @@ a:hover{
     padding-left: 4rem;
     padding-right: 4rem;
 }
-
 
 .menu1{
      width: 380px;
@@ -2547,6 +2782,125 @@ a:hover{
     padding-bottom: 0rem;
 }
 
+
+.contact{
+    padding: 1rem;
+}
+
+
+
+.contact-details{
+    padding-left: 0;
+}
+.contact-details h1{
+    font-size: 1.5rem;
+}
+
+.contact-details1  {
+    font-size: 1.2rem;
+}
+
+.contact-details1  p{
+    font-size: 1rem;
+}
+
+
+.contact-details2 a {
+    position:relative;
+    display: inline-block;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.contact-details3 p{
+    padding-top: 2rem;
+   font-size: 1rem;
+   font-weight: 400;
+}
+
+.message{
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.message h1{
+    color:#8b3a00;
+    font-size: 1.5rem;
+}
+.message1{
+    display: flex;
+    font-size: 1rem;
+    padding: 2rem 1rem;
+    border-radius: 2rem;
+}
+
+ form{
+    gap: 1rem;
+
+ }
+
+ label{
+    font-size: 1rem;
+ }
+
+ input, textarea{
+    width: 300px;
+    font-size: 1rem; 
+ }
+
+ ::placeholder{
+    font-size: 1rem;
+ }
+
+ form button{
+    font-size: 1rem;
+    width: 300px;
+ }
+
+ 
+.links-container{
+    display: flex;
+    gap: 1rem;
+}
+
+.links1 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.links2 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.links3 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.bitestreet1 p{
+    font-size: 1rem;
+}
+
+
+
+.bitestreet2 p{
+    font-size: 1rem;
+    padding-right: 14rem;
+}
+
+.bitestreet2 button{
+    font-size: 1rem;
+    padding: .5rem 1rem;
+}
+
+
+
+
+ 
 
 
 
@@ -2633,6 +2987,115 @@ a:hover{
     padding-right: 6rem;
 }
 
+.contact-details{
+    padding-left: 0;
+}
+.contact-details h1{
+    font-size: 1.5rem;
+}
+
+.contact-details1  {
+    font-size: 1.2rem;
+}
+
+.contact-details1  p{
+    font-size: 1rem;
+}
+
+
+.contact-details2 a {
+    position:relative;
+    display: inline-block;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.contact-details3 p{
+    padding-top: 2rem;
+   font-size: 1rem;
+   font-weight: 400;
+}
+
+.message{
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.message h1{
+    color:#8b3a00;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+}
+.message1{
+    display: flex;
+    font-size: 1rem;
+    padding: 2rem 1rem;
+    border-radius: 2rem;
+}
+
+ form{
+    gap: 1rem;
+
+ }
+
+ label{
+    font-size: 1rem;
+ }
+
+ input, textarea{
+    width: 380px;
+    font-size: 1rem; 
+ }
+
+ ::placeholder{
+    font-size: 1rem;
+ }
+
+ form button{
+    font-size: 1rem;
+    width: 380px;
+ }
+  
+.links-container{
+    display: flex;
+    gap: 1rem;
+}
+
+.links1 a{
+    font-size: 1.1rem;
+}
+
+.links2 a{
+    font-size: 1.1rem;
+}
+
+.links3 a{
+    font-size: 1.1rem;
+}
+
+.bitestreet1 p{
+    font-size: 1.1rem;
+}
+
+
+
+.bitestreet2 p{
+    font-size: 1.1rem;
+    padding-right: 28rem;
+}
+
+.bitestreet2 button{
+    font-size: 1.5rem;
+    padding: .5rem 1rem;
+}
+
+
+
+ 
+
+
+
+
 }
 
  @media(min-width: 640px){
@@ -2706,7 +3169,6 @@ a:hover{
     font-weight: 400;
     line-height: 1.6;
 }
-
 
 .quater button{
     font-size: 1.2rem;
@@ -3011,42 +3473,36 @@ a:hover{
 
 
 
+
+   
 .partners{
+    border: 2px solid #8b3a00;
     display: flex;
     flex-direction: row;
-    font-size: 1rem;
-    font-weight: 400;
-    width: 620px;
-    border: 2px solid black; 
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1rem;
+    height: 100px;
+    border: none;
 }
 
 .partners p{
-    margin: 0;
     font-size: 1rem;
+    padding-bottom: .5rem;
+}
+.our-partners{
+    margin-left: .5rem;
 }
 
-.our-partners  {
-    display: flex;
+.our-partners a{
+    display: inline-block;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid red;
     flex-wrap: wrap;
-    font-size: 1rem;
-    text-decoration: none;
-    font-weight: 400;
-    gap: 1.5rem;
+    font-size: 1.3rem;
     align-items: center;
-    padding-left: .5rem;
-    border-radius: 1.5rem;
-
+    padding: .5rem;
 }
 
-.our-partners  a{
-    font-size: 1rem;
-   }
-
-   
 .explore{
     color: #8b3a00;
 }
@@ -3228,7 +3684,197 @@ a:hover{
 }
 
 
+.FAQSECTION{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
 
+.FAQSECTION1{
+    width: 50%;
+    align-items: flex-start;
+}
+
+.FAQSECTION1 h6{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.FAQSECTION1 h1{
+    font-size: 1.5rem;
+}
+
+.FAQSECTION1 p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.FAQSECTION2{
+    width: 50%;
+}
+
+.accordion{
+    gap: 1rem;
+}
+
+
+.accordion .content-container .question{
+    font-size: 1rem;
+   
+}
+
+.accordion .content-container .question::after{
+     font-size: 1.5rem;
+}
+
+.accordion .content-container .answer{
+    font-size: 1rem;
+}
+
+.accordion .content-container.active .answer{
+    height: 150px;
+}
+
+.accordion .content-container.active .question{
+    font-size: 18px;
+}
+
+.accordion .content-container.active .question::after{
+    font-size: 1.5rem;
+}
+
+#content-container{
+    color:#8b3a00;
+}
+
+
+.contact{
+    display: flex;
+    padding: 2rem;
+}
+
+.contact-details{
+    padding-left: 0;
+    width: 50%;
+}
+.contact-details h1{
+    font-size: 1.5rem;
+}
+
+.contact-details1  {
+    font-size: 1.2rem;
+}
+
+.contact-details1  p{
+    font-size: 1rem;
+}
+
+
+.contact-details2 a {
+    position:relative;
+    display: inline-block;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.contact-details3 p{
+    padding-top: 2rem;
+   font-size: 1rem;
+   font-weight: 400;
+}
+
+.message{
+    margin-top: 1rem;
+    gap: 1rem;
+    width: 50%;
+}
+
+.message h1{
+    color:#8b3a00;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+}
+.message1{
+    display: flex;
+    font-size: 1rem;
+    padding: 2rem 1rem;
+    border-radius: 2rem;
+
+}
+
+ form{
+    gap: 1rem;
+
+ }
+
+ label{
+    font-size: 1rem;
+ }
+
+ input, textarea{
+    width: 240px;
+    font-size: 1rem; 
+ }
+
+ ::placeholder{
+    font-size: 1rem;
+ }
+
+ form button{
+    font-size: 1rem;
+    width: 240px;
+ }
+
+ .the-end{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+ }
+.bitestreet1{
+    width: 50%;
+}
+
+.bitestreet2{
+    width: 48%;
+}
+ 
+.links1 a{
+    font-size: 1rem;
+}
+
+.links2 a{
+    font-size: 1rem;
+}
+
+.links3 a{
+    font-size: 1rem;
+}
+
+.bitestreet1 p{
+    font-size: 1.2rem;
+}
+
+
+
+.bitestreet2 p{
+    font-size: 2rem;
+    padding-right: 10rem;
+}
+
+.bitestreet2 button{
+    font-size: 1.5rem;
+    padding: .5rem 1rem;
+    margin-top: 3rem;
+}
+
+
+ .bitestreet1{
+    margin-top: 3rem;
+ }
+
+ .the-end{
+    gap: 2rem;
+ }
 
 
 
@@ -3520,24 +4166,27 @@ a:hover{
 }
 
 
+
 .partners{
-    width: 750px;
-    border: 2px solid black;
-    font-weight: 400;
-    font-size: 1.1rem;
-    
+    padding: 1rem;
+    height: 100px;
 }
 
-.partners, ol, li, a{
-    gap: 2rem;
-    border: none;
+.partners p{
+    font-size: 1.3rem;
+    padding-top: 1rem;
+    color: #8b3a0063;
+}
+.our-partners{
+    margin-left: .5rem;
 }
 
-.partners a{
-    font-size: 1.1rem;
-    font-weight: 400;
-    
+.our-partners a{
+    font-size: 1.5rem;
+    padding: 1rem;
+    font-weight: 500;
 }
+
 
 .explore h6{
     font-size: 1.1rem;
@@ -3675,10 +4324,202 @@ a:hover{
 }
 
 
+.FAQSECTION1 h6{
+    font-size: 1.2rem;
+}
+
+.FAQSECTION1 h1{
+    font-size: 1.5rem;
+}
+
+.FAQSECTION1 p{
+    font-size: 1.2rem;
+}
+
+.FAQSECTION2{
+    width: 50%;
+}
+
+.accordion{
+    gap: 1rem;
+}
+
+
+.accordion .content-container .question{
+    font-size: 1.2rem;
+   
+}
+
+.accordion .content-container .question::after{
+     font-size: 1.5rem;
+}
+
+.accordion .content-container .answer{
+    font-size: 1.2rem;
+}
+
+.accordion .content-container.active .answer{
+    height: 150px;
+}
+
+.accordion .content-container.active .question{
+    font-size: 1rem;
+}
+
+.accordion .content-container.active .question::after{
+    font-size: 1.5rem;
+}
+
+#content-container{
+    color:#8b3a00;
+}
+
+
+.get-in-touch h6{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.get-in-touch h1{
+    font-size: 1.6rem;
+}
+
+.get-in-touch p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.6;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+
+.contact{
+    padding: 2rem;
+}
+
+.contact-details{
+    padding-left: 0;
+    width: 50%;
+}
+.contact-details h1{
+    font-size: 1.5rem;
+}
+
+.contact-details1  {
+    font-size: 1.2rem;
+}
+
+.contact-details1  p{
+    font-size: 1.2rem;
+}
+
+
+.contact-details2 a {
+    position:relative;
+    display: inline-block;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.contact-details3 p{
+    padding-top: 2rem;
+   font-size: 1.2rem;
+   font-weight: 400;
+}
+
+.message{
+    margin-top: 1rem;
+    gap: 1rem;
+    width: 50%;
+}
+
+.message h1{
+    color:#8b3a00;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+}
+.message1{
+    display: flex;
+    font-size: 1.2rem;
+    padding: 2rem 1rem;
+    border-radius: 2rem;
+
+}
+
+ form{
+    gap: 1rem;
+
+ }
+
+ label{
+    font-size: 1.2rem;
+ }
+
+ input, textarea{
+    width: 300px;
+    font-size: 1.2rem; 
+ }
+
+ ::placeholder{
+    font-size: 1.2rem;
+ }
+
+ form button{
+    font-size: 1.2rem;
+    width: 300px;
+ }
+
+  .the-end{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+ }
+.bitestreet1{
+    width: 50%;
+}
+
+.bitestreet2{
+    width: 50%;
+}
+ 
+.links1 a{
+    font-size: 1.1rem;
+}
+
+.links2 a{
+    font-size: 1.1rem;
+}
+
+.links3 a{
+    font-size: 1.1rem;
+}
+
+.bitestreet1 p{
+    font-size: 1.2rem;
+}
 
 
 
+.bitestreet2 p{
+    font-size: 2rem;
+    padding-right: 10rem;
+}
 
+.bitestreet2 button{
+    font-size: 1.5rem;
+    padding: .5rem 1rem;
+    margin-top: 3rem;
+    border-radius: 2rem;
+}
+
+
+ .bitestreet1{
+    margin-top: 3rem;
+ }
+
+ .the-end{
+    gap: 2rem;
+ }
 
 
 
@@ -3710,7 +4551,7 @@ nav ul{
     gap: .5rem;
 }
 
-nav, a{
+nav a{
     height:50px;
     font-size: 1.5rem;
     color:#8b3a00;
@@ -3739,13 +4580,11 @@ nav, a{
 .nav-left {
   justify-content: flex-start;
   padding-right: 3.2rem;
-  padding-top: 2rem;
 }
 
 .nav-right {
   justify-content: flex-end;
   padding-left: 3.1rem;
-  padding-top: 2rem;
 }
 
 .nav-links a {
@@ -4007,14 +4846,28 @@ nav, a{
     padding-top: 3rem;
 }
 
-
 .partners{
-    width: 1000px;
-    border: 2px solid black;
-    font-weight: 400;
-    font-size: 1.1rem;
-    color: #8b3a00a8;
-    background-color: powderblue;
+    padding: 2rem;
+    height: 120px;
+    border-radius: 4rem;
+}
+
+.partners p{
+    font-size: 1.5rem;
+    padding-bottom: 5rem;
+    color: #8b3a0063;
+}
+.our-partners{
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+    align-items: center;
+
+}
+
+.our-partners a{
+    font-size: 1.7rem;
+    font-weight: 600;
+    padding: 0 1.5rem;
 }
 
 
@@ -4110,8 +4963,172 @@ nav, a{
 }
 
 
+.FAQSECTION1 h6{
+    font-size: 1.3rem;
+}
+
+.FAQSECTION1 h1{
+    font-size: 1.7rem;
+}
+
+.FAQSECTION1 p{
+    font-size: 1.3rem;
+}
 
 
+.accordion .content-container .question{
+    font-size: 1.3rem;
+   
+}
+
+.accordion .content-container .question::after{
+     font-size: 1.7rem;
+}
+
+.accordion .content-container .answer{
+    font-size: 1.3rem;
+}
+
+.accordion .content-container.active .answer{
+    height: 150px;
+}
+
+.accordion .content-container.active .question{
+    font-size: 1.1rem;
+}
+
+.accordion .content-container.active .question::after{
+    font-size: 1.7rem;
+}
+
+.get-in-touch h6{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.get-in-touch h1{
+    font-size: 1.6rem;
+}
+
+.get-in-touch p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.6;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+
+.contact{
+    padding: 2rem;
+}
+
+.contact-details{
+    padding-left: 0;
+    width: 50%;
+}
+.contact-details h1{
+    font-size: 1.5rem;
+}
+
+.contact-details1  {
+    font-size: 1.2rem;
+}
+
+.contact-details1  p{
+    font-size: 1.2rem;
+}
+
+
+.contact-details2 a {
+    position:relative;
+    display: inline-block;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.contact-details3 p{
+    padding-top: 2rem;
+   font-size: 1.2rem;
+   font-weight: 400;
+}
+
+.message{
+    margin-top: 1rem;
+    gap: 1rem;
+    width: 50%;
+}
+
+.message h1{
+    color:#8b3a00;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+}
+.message1{
+    display: flex;
+    font-size: 1.2rem;
+    padding: 2rem 1rem;
+    border-radius: 2rem;
+
+}
+
+ form{
+    gap: 1rem;
+
+ }
+
+ label{
+    font-size: 1.2rem;
+ }
+
+ input, textarea{
+    width: 400px;
+    font-size: 1.2rem; 
+ }
+
+ ::placeholder{
+    font-size: 1.2rem;
+ }
+
+ form button{
+    font-size: 1.2rem;
+    width: 400px;
+ }
+
+ 
+.links1 a{
+    font-size: 1.2rem;
+}
+
+.links2 a{
+    font-size: 1.2rem;
+}
+
+.links3 a{
+    font-size: 1.2rem;
+}
+
+.bitestreet1 p{
+    font-size: 1.2rem;
+}
+
+
+
+.bitestreet2 p{
+    font-size: 2rem;
+    padding-right: 20rem;
+}
+
+.bitestreet2 button{
+    font-size: 1.5rem;
+    padding: .5rem 1rem;
+    margin-top: 2rem;
+    border-radius: 2rem;
+}
+
+ .bitestreet1{
+    margin-top: 3rem;
+ }
 
 
 
@@ -4148,13 +5165,11 @@ nav a{
 .nav-left {
   justify-content: flex-start;
   padding-right: 11.5rem;
-  padding-top: 2rem;
 }
 
 .nav-right {
   justify-content: flex-end;
   padding-left: 11.5rem;
-  padding-top: 2rem;
 }
     
 .text-overlay{
@@ -4420,6 +5435,32 @@ nav a{
 }
 
 
+.partners{
+    padding: 2rem;
+    height: 120px;
+    border-radius: 4rem;
+}
+
+.partners p{
+    font-size: 1.5rem;
+    padding-bottom: 5rem;
+    color: #8b3a0063;
+}
+.our-partners{
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+    align-items: center;
+
+}
+
+.our-partners a{
+    font-size: 1.7rem;
+    font-weight: 900;
+    padding: 0 3.1rem;
+}
+
+
+
 .explore h6{
     font-size: 1.3rem;
 }
@@ -4514,6 +5555,178 @@ nav a{
 }
 
 
+
+.FAQSECTION1 h6{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.FAQSECTION1 h1{
+    font-size: 2rem;
+}
+
+.FAQSECTION1 p{
+    font-size: 1.3rem;
+}
+
+
+.accordion .content-container .question{
+    font-size: 1.3rem;
+   
+}
+
+.accordion .content-container .question::after{
+     font-size: 2rem;
+}
+
+.accordion .content-container .answer{
+    font-size: 1.3rem;
+}
+
+.accordion .content-container.active .answer{
+    height: 100px;
+}
+
+.accordion .content-container.active .question{
+    font-size: 1.2rem;
+}
+
+.accordion .content-container.active .question::after{
+    font-size: 2rem;
+}
+
+
+.get-in-touch h6{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.get-in-touch h1{
+    font-size: 1.7rem;
+}
+
+.get-in-touch p{
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.6;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+
+.contact{
+    padding: 2rem;
+}
+
+.contact-details{
+    padding-left: 0;
+    width: 50%;
+}
+.contact-details h1{
+    font-size: 1.5rem;
+}
+
+.contact-details1  {
+    font-size: 1.3rem;
+}
+
+.contact-details1  p{
+    font-size: 1.3rem;
+}
+
+.contact-details2 a {
+    position:relative;
+    display: inline-block;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.contact-details3 p{
+    padding-top: 2rem;
+   font-size: 1.3rem;
+   font-weight: 400;
+}
+
+.message{
+    margin-top: 1rem;
+    gap: 1rem;
+    width: 50%;
+}
+
+.message h1{
+    font-size: 1.5rem;
+    padding-left: 2rem;
+}
+.message1{
+    display: flex;
+    font-size: 1.3rem;
+    padding: 2rem 1rem;
+    border-radius: 2rem;
+}
+
+ form{
+    gap: 1rem;
+ }
+
+ label{
+    font-size: 1.3rem;
+ }
+
+ input, textarea{
+    width: 550px;
+    font-size: 1.3rem; 
+ }
+
+ ::placeholder{
+    font-size: 1.3rem;
+ }
+
+ form button{
+    font-size: 1.3rem;
+    width: 550px;
+ }
+ .the-end{
+    gap: 3rem;
+ }
+ 
+
+ .bitestreet1{
+    margin-top: 3rem;
+ }
+
+ 
+ 
+.links1 a{
+    font-size: 1.3rem;
+}
+
+.links2 a{
+    font-size: 1.3rem;
+}
+
+.links3 a{
+    font-size: 1.3rem;
+}
+
+.bitestreet1 p{
+    font-size: 1.3rem;
+}
+
+
+
+.bitestreet2 p{
+    font-size: 3rem;
+    padding-right: 17rem;
+}
+
+.bitestreet2 button{
+    font-size: 1.5rem;
+    padding: .5rem 1rem;
+    margin-top: 3rem;
+    border-radius: 2rem;
+}
+
+
  }
 
  @media(min-width: 1536px){
@@ -4528,7 +5741,7 @@ nav a{
     }
 
     
-nav, a{
+nav a{
     height:50px;
     font-size: 1.5rem;
     
@@ -4537,13 +5750,11 @@ nav, a{
 .nav-left {
   justify-content: flex-start;
   padding-right: 11.5rem;
-  padding-top: 2rem;
 }
 
 .nav-right {
   justify-content: flex-end;
   padding-left: 11.5rem;
-  padding-top: 2rem;
 }
     
 .text-overlay{
@@ -4758,8 +5969,42 @@ nav, a{
     font-size: 1.4rem;
 }
 
+.community-description button{
+    font-size: 1.3rem;
+}
 
 
+
+.FAQSECTION1 h6{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.FAQSECTION1 h1{
+    font-size: 2rem;
+}
+
+.FAQSECTION1 p{
+    font-size: 1.3rem;
+}
+
+
+.accordion .content-container .question{
+    font-size: 1.4rem;
+   
+}
+
+.accordion .content-container .question::after{
+     font-size: 2.3rem;
+}
+
+.accordion .content-container .answer{
+    font-size: 1.4rem;
+}
+
+.accordion .content-container.active .question{
+    font-size: 1.2rem;
+}
 
 
 

@@ -47,6 +47,19 @@ function showMore (){
 
 
 
+const messageSend = document.getElementById("messagee");
+
+messageSend.addEventListener('click', () => {
+    const confirmation = document.getElementById("confirmation");
+    confirmation.style.display = "block";
+
+    setTimeout(() => {
+        confirmation.style.display = "none";
+    }, 10000); 
+});
+
+
+
 
 
 
